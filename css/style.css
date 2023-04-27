@@ -1,25 +1,53 @@
-.foodie{
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    text-decoration: underline;
+    color:rgb(147, 62, 62);
+    margin: 50px 0px;
+    font-size: 2rem;
+}
+
+section{
     width: 100%;
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-img{
-    width: 400px;
-    height: 500px;
-    border-radius: 5px;
-    margin: 20px;
+        padding: 10px;
+    width:90%;
+    row-gap: 12px;
 }
 
-p{
-    height: 300px;
-    width: 300px;
-}
-h1{
+p {
     text-align: center;
-}  
+    width: 400px;
+    margin-bottom: 20px
+    ;
+}
 
-header{
-    display: grid;
-    place-items: center;
+a {
+    text-decoration: none;
+    color:black;
+}
+
+
+img {
+    width:500px;
+    height: 400px;
+    border-radius: 20%;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(147, 62, 62);
+    font-size: 2rem;
 }

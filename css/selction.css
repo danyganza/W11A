@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    margin: 50px 0px;
+    color:rgb(147, 62, 62);
+}
+
+
+
+article {
+    display: grid;
+    place-items: center;
+    row-gap: 12px;   
+    padding: 20px;
+    width:90%;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(147, 62, 62);
+}
+
+img {
+    width:200px;
+}
+
+#home {
+    margin-top: 50px;
+    font-size: 1rem;
+    
+}
